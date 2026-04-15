@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Brian Gutiérrez — Dev Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div class="terminal-window">
+  <div class="titlebar">
+    <div class="dots">
+      <span class="dot red"></span>
+      <span class="dot amber"></span>
+      <span class="dot green"></span>
+    </div>
+    <span class="titlebar-text">brian@portfolio ~ — bash</span>
+  </div>
+
+  <div class="terminal-body">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="prompt-line">
+        <span class="prompt-symbol">❯</span>
+        <span class="prompt-path">~/portfolio</span>
+        <span class="prompt-cmd">&nbsp;whoami</span>
+      </div>
+      <h1 class="big-name">Brian Gutiérrez</h1>
+      <p class="tagline">Backend Developer · IA en progreso · <span>DAM · Nido + I + D · Valencia (remoto)</span></p>
+      <div class="contact-bar">
+        <span class="contact-item">📧 <a href="mailto:briangutierrezdev@gmail.com">briangutierrezdev@gmail.com</a></span>
+        <span class="contact-item">📍 Valencia, España</span>
+        <span class="contact-item">🔗 <a href="https://github.com/BrianGutierrez-Dev" target="_blank">github.com/BrianGutierrez-Dev</a></span>
+        <span class="contact-item">💼 <a href="https://www.linkedin.com/in/brian-gutierrez-dev" target="_blank">linkedin.com/in/brian-gutierrez-dev</a></span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-cmd">$</span>
+        <span class="section-title">cat about.txt</span>
+        <div class="section-line"></div>
+      </div>
+      <p class="about-text">
+        Desarrollador DAM con foco en <em>backend e IA</em>. Actualmente en prácticas en Nido + I + D
+        desarrollando una app de gestión de activos con QR en remoto.
+        Disponible para incorporación inmediata.
+      </p>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-cmd">$</span>
+        <span class="section-title">ls skills/</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-category">Lenguajes</div>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">C++</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-category">Backend / APIs</div>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">REST</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-category">Frontend</div>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Vue</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-category">Bases de datos</div>
+          <div class="skill-tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-category">Herramientas</div>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-category">Idiomas</div>
+          <div class="skill-tags">
+            <span class="tag">Español · Nativo</span>
+            <span class="tag">Inglés · B2</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-category">IA / Machine Learning</div>
+          <div class="skill-tags">
+            <span class="tag">scikit-learn</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">OpenAI API</span>
+            <span class="tag">Hugging Face</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-cmd">$</span>
+        <span class="section-title">ls projects/</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-list">
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-name">🚀 Nombre del Proyecto 1</span>
+            <div class="project-links">
+              <a class="project-link" href="#" target="_blank">GitHub</a>
+              <a class="project-link" href="#" target="_blank">Demo</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Breve descripción del proyecto: qué hace, qué problema resuelve y qué aprendiste construyéndolo.
+            Menciona si tiene usuarios reales, cifras de uso, o cualquier dato que lo haga más concreto.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">PostgreSQL</span>
+            <span class="stack-tag">Docker</span>
+            <span class="stack-tag">REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-name">🛠 Nombre del Proyecto 2</span>
+            <div class="project-links">
+              <a class="project-link" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Descripción del segundo proyecto. Incluso un proyecto de clase puede destacar si explicas
+            las decisiones técnicas que tomaste y los retos que superaste.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">FastAPI</span>
+            <span class="stack-tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-name">⚙️ Nombre del Proyecto 3</span>
+            <div class="project-links">
+              <a class="project-link" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <p class="project-desc">
+            Proyecto durante las prácticas o personal. No hace falta que sea complejo —
+            lo importante es que muestre tu forma de pensar y resolver problemas.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Java</span>
+            <span class="stack-tag">Spring Boot</span>
+            <span class="stack-tag">MySQL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-cmd">$</span>
+        <span class="section-title">cat experience.log</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-role">Desarrollador de Aplicaciones en Prácticas</div>
+        <div class="exp-company">Nido + I + D · Denia</div>
+        <div class="exp-period">2025 — Presente · Remoto desde Valencia</div>
+        <ul class="exp-bullets">
+          <li>Desarrollo frontend con React de una aplicación de gestión de activos con QR.</li>
+          <li>Trabajo en remoto dentro de un entorno profesional real desde el inicio del ciclo.</li>
+          <li>Participación activa en el ciclo de vida completo de una aplicación de gestión empresarial.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-cmd">$</span>
+        <span class="section-title">cat education.json</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="edu-item">
+        <div>
+          <div class="edu-degree">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</div>
+          <div class="edu-school">Formación Profesional · Grado Superior</div>
+        </div>
+        <div class="edu-period">2024 — 2026<br/><span style="color:var(--green);font-size:10px;">En curso</span></div>
+      </div>
+    </div>
+
+    <!-- CERTIFICATIONS -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-cmd">$</span>
+        <span class="section-title">ls certifications/</span>
+        <div class="section-line"></div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-icon">🎓</div>
+        <div class="cert-info">
+          <div class="cert-title">Iniciación al Desarrollo con IA</div>
+          <div class="cert-issuer">BIG school · <em>Desarrollo con IA: de 0 a Producción</em></div>
+          <div class="cert-meta">
+            <span class="cert-date">15/03/2026</span>
+            <span class="cert-duration">· 6 horas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-prompt">
+      <span style="color:var(--green);">❯</span>
+      <span>disponible para nuevas oportunidades&nbsp;</span>
+      <span class="cursor"></span>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
